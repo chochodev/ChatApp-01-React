@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    #slider{
+        user-select: none;
+    }
+    #slider::-webkit-scrollbar{
+        height: 6px;
+    }
+    #slider::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color:  hsl(200 60% 40%);
+    }
+    #slider::-webkit-scrollbar-track{
+        border-radius: 5px;
+        background-color: #bfdbfe;
+        ;
+    }
+    .slider{
+        user-select: none;
+    }
+    .slider::-webkit-scrollbar{
+        height: 6px;
+        width: 5px;
+    }
+    .slider::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color:  hsl(200 60% 40%);
+    }
+    .slider::-webkit-scrollbar-track{
+        border-radius: 5px;
+        background-color: #bfdbfe;
+        ;
+    }
+    @supports (scrollbar-color: hsl(200 60% 40%) #bfdbfe){
+        *{
+            scrollbar-color: hsl(200 60% 40%) #bfdbfe;
+            scrollbar-width: thin;
+        }
+    }
+    .Slider{
+        user-select: none;
+    }
+    .Slider::-webkit-scrollbar{
+        height: 6px;
+        width: 5px;
+    }
+    .Slider::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color:  hsl(200 60% 40%);
+    }
+    .Slider::-webkit-scrollbar-track{
+        border-radius: 5px;
+        background-color: #bfdbfe;
+        ;
+    }
+    @supports (scrollbar-color: hsl(200 60% 40%) #bfdbfe){
+        *{
+            scrollbar-color: hsl(200 60% 40%) #bfdbfe;
+            scrollbar-width: thin;
+        }
+    }
+
+    .Input{
+        @apply w-[100%] outline-none p-2 my-2 bg-transparent border-black/20 border-b-2 scrollbar-none
+    }
+    .p-tag{
+        @apply text-[15px] px-3 py-1 whitespace-normal min-w-[400px] text-slate-500 rounded-md sm:min-w-[240px] max-w-max
+        text-[15px] px-3 py-1 whitespace-normal  min-w-[400px] text-slate-500 rounded-md
+    }
+}.laher{
+       color: #006771;
+}
+         

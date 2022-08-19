@@ -1,0 +1,68 @@
+{
+    "database":[
+        {
+            "Surname" : "Emmanuel",
+            "Firstname" : "Michael",
+            "Status" : "online",
+            "Image" : "../assets/dp_img_1.jpg",
+            "onClick" : "Chat-1",
+            "slice" : "(0, 1)"
+        },
+        {
+            "Surname" : "Victor",
+            "Firstname" : "Rose",
+            "Status" : "online",
+            "Image" : "../assets/dp_img_2.jpg",
+            "onClick" : "Chat-2",
+            "slice" : "(1, 2)"
+        },
+        {
+            "Surname" : "Ardee",
+            "Firstname" : "Max",
+            "Status" : "offline",
+            "Image" : "../assets/dp_img_3.jpg",
+            "onClick" : "Chat-3",
+            "slice" : "(2, 3)"
+        },
+        {
+            "Surname" : "Garfield",
+            "Firstname" : "Anderson",
+            "Status" : "online",
+            "Image" : "../assets/dp_img_4.jpg",
+            "onClick" : "Chat-4",
+            "slice" : "(3, 4)"
+        },
+        {
+            "Surname" : "Victor",
+            "Firstname" : "Rose",
+            "Status" : "online",
+            "Image" : "../assets/dp_img_2.jpg",
+            "onClick" : "Chat-5",
+            "slice" : "(4, 5)"
+        },
+        {
+            "Surname" : "Ardee",
+            "Firstname" : "Max",
+            "Status" : "offline",
+            "Image" : "../assets/dp_img_3.jpg",
+            "onClick" : "Chat-6",
+            "slice" : "(5, 6)"
+        },
+        {
+            "Surname" : "Garfield",
+            "Firstname" : "Anderson",
+            "Status" : "online",
+            "Image" : "../assets/dp_img_4.jpg",
+            "onClick" : "Chat-7",
+            "slice" : "(6, 7)"
+        },
+        {
+            "Surname" : "Victor",
+            "Firstname" : "Rose",
+            "Status" : "online",
+            "Image" : "../assets/dp_img_2.jpg",
+            "onClick" : "Chat-8",
+            "slice" : "(7, 1)"
+        }
+    ]
+}
